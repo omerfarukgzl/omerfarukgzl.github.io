@@ -478,9 +478,8 @@ header .navbar {
 }
 
 .product-item img {
-	width: 20%;
+	width: 100%;
 	overflow: hidden;
-	height:20%;
 }
 
 .product-item .down-content h4 {
