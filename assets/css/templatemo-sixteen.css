@@ -472,6 +472,9 @@ header .navbar {
 	margin-bottom: 30px;
 	/* height: 780px; */
 }
+.product-item .row{
+height:100px;
+}
 
 .product-item .down-content {
 	padding: 30px;
