@@ -480,7 +480,7 @@ header .navbar {
 .product-item img {
 	width: 20%;
 	overflow: hidden;
-	max-height:20%;
+	height:20%;
 }
 
 .product-item .down-content h4 {
