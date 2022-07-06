@@ -221,7 +221,7 @@ https://templatemo.com/tm-546-sixteen-clothing
 		 
         imgParent = clicked.parentNode.parentNode.parentNode;
 		
-		img = imgParent.children[0].getAttribute("src");
+		img = imgParent.children[0].children[0].getAttribute("src");
 		name =clicked.parentNode.parentNode.children[0].innerText;
 		desc =clicked.parentNode.parentNode.children[1].innerHTML;
 		
@@ -258,9 +258,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 				
 										<div class="col-lg-4 col-md-4 all kgt">
                       <div id="product" class="product-item">
-<div class="row" style="height:400px">
-                        <img id ="img" src="assets/images/Hitaci.jpg" alt="">
-						  </div>
+						<div class="row" style="height:400px">
+							<img id ="img" src="assets/images/Hitaci.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Hitaci Kağıt Para sayma Makinesi</h4>
                           <p hidden>
