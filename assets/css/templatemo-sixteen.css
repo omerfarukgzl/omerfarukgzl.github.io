@@ -473,7 +473,9 @@ header .navbar {
 	/* height: 780px; */
 }
 .product-item >row{
-height:100px;
+width: 300px;
+height: 300px;
+}
 }
 
 .product-item .down-content {
@@ -482,8 +484,13 @@ height:100px;
 }
 
 .product-item img {
-	width: 100%;
-	overflow: hidden;
+padding: 50px 15px 30px 20px;
+    background: red;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
 }
 
 .product-item .down-content h4 {
