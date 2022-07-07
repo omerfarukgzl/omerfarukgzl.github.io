@@ -472,9 +472,8 @@ header .navbar {
 	margin-bottom: 30px;
 	/* height: 780px; */
 }
-.product-item >row{
-width: 300px;
-height: 300px;
+.product-item .rowimg{
+height: 500px;
 }
 }
 
