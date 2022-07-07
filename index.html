@@ -235,12 +235,21 @@ https://templatemo.com/tm-546-sixteen-clothing
   
 
 </script>
+<script  type="text/javascript">
+$( document ).ready(function() {
+        var clientWidth = document.getElementById('img').clientWidth;
+		document.getElementById("imgrow").style.height = clientWidth;
+    });
+
+</script>
 
 <script  type="text/javascript">
 $(window).resize(function(){
   winWidth = $(window).width();
   $("#imgrow").height(winWidth*.3);
 });
+
+
 </script>
 
 	<div class="section-heading"> </div>
