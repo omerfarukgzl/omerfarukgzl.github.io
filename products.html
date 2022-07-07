@@ -135,7 +135,7 @@ https://templatemo.com/tm-546-sixteen-clothing
 		 
         imgParent = clicked.parentNode.parentNode.parentNode;
 		
-		img = imgParent.children[0].getAttribute("src");
+		img = imgParent.children[0].children[0].getAttribute("src");
 		name =clicked.parentNode.parentNode.children[0].innerText;
 		desc =clicked.parentNode.parentNode.children[1].innerHTML;
 		
@@ -146,33 +146,11 @@ https://templatemo.com/tm-546-sixteen-clothing
 		<!-- alert(name); -->
 	
   }	
+  
+
 </script>
 
 
-<!-- <div id="openModal" class="modalDialog">
-<figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-  <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512">
-  <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-    <blockquote>
-      <p class="text-lg font-medium">
-        “Tailwind CSS is the only framework that I've seen scale
-        on large teams. It’s easy to customize, adapts to any design,
-        and the build size is tiny.”
-      </p>
-    </blockquote>
-    <figcaption class="font-medium">
-      <div class="text-sky-500 dark:text-sky-400">
-        Sarah Dayan
-      </div>
-      <div class="text-slate-700 dark:text-slate-500">
-        Staff Engineer, Algolia
-      </div>
-    </figcaption>
-  </div>
-</figure>
-</div>
- -->
-    
     <div class="products">
       <div class="container">
         <div class="row">
@@ -193,7 +171,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 				
                      <div class="col-lg-4 col-md-4 all kgt">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/ToshibaIbs100.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Toshiba Ibs-100 Kağıt Para sayma Makinesi</h4>
                           <p hidden>
@@ -213,7 +193,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all kgt">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Hitaci.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Hitaci Kağıt Para sayma Makinesi</h4>
                           <p hidden>
@@ -319,7 +301,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all kgt">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Hyundai.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Hyundai Kağıt Para sayma Makinesi</h4>
                           <p hidden>
@@ -386,7 +370,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all kgt">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Newton3.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Newton3 Kağıt Para sayma Makinesi</h4>
                           <p hidden>
@@ -445,7 +431,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all kgt">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/ihunter2.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>I Hunter 2.0  Para Sayma Makinesi</h4>
                           <p hidden>
@@ -487,178 +475,13 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					
 					
-					<!-- <div class="col-lg-4 col-md-4 all kgt">
-                      <div id="product" class="product-item">
-                        <img id ="img" src="assets/images/Hyundai.jpg" alt="">
-                        <div id ="1" class="down-content">
-                         <h4>Hyundai Kağıt Para sayma Makinesi</h4>
-                          <p hidden>
-						  OTOMATİK BANKNOT TANIMA TEKNOLOJİSİNE SAHİP YENİLİKÇİ PARA SAYMA MAKİNESİ
-
-						MIB-11V modeli geliştirilmiş CIS (contact image sensor)’ leri sayesinde kullanıcılarına üstün bir teknoloji sunup, para tanıma ve saymada çığır açmıştır. Herhangi bir menü değişikliğine gerek kalmadan, tanıdığı paranın cinsini ayırt etmekte ve hangi ülke para birimin olduğunu algılamakla beraber, sayım anında ekranında ülke birimini göstererek sayımına devam edip başarılı ve eksiksiz bir şekilde 
-
-						PARA BİRİMİ 40 ÜLKE
-
-						OTO - İLK PARA SAYIM
-
-						KRSK - KARIŞIK SAYIM 
-						
-						• DKK
-						• AED
-						• CNY
-						• PKR
-						• NOK
-						• SAR
-						• CZK
-						• MYR
-						• TRY - TÜRK LİRASI
-						• JPY
-						• JOD
-						• BHD
-						• BRL
-						• USD - DOLAR
-						• AUD
-						• KWD
-						• MDL
-						• MXN
-						• EUR - EURO
-						• CAD
-						• EGP
-						• OMR
-						• CLP
-						• GBP - STERLİN
-						• QD
-						• SGD
-						• HRK
-						• NZD
-						• CHF - İSVİÇRE FRANGI
-						• PLN
-						• HKD
-						• ZAR
-						• RUB - RUS RUBLESİ
-						• LBP
-						• ILS
-						• KRW
-						• SEK
-						• SYP
-						• HUF
-						• INR
-						</p>
-
-						  <div style ="justify-content:center;" class="row"> 
-						   <a href="#openModal" onClick="reply_click(this)" class="filled-button">Detay</a>
-						  </div>
-                        </div>
-                      </div>
-                    </div>
-					
 					
 					
 					<div class="col-lg-4 col-md-4 all kgt">
                       <div id="product" class="product-item">
-                        <img id ="img" src="assets/images/Hyundai2.jpg" alt="">
-                        <div id ="1" class="down-content">
-                         <h4>Hyundai Kağıt Para sayma Makinesi</h4>
-                          <p hidden>
-						  PARA BİRİMİ 40 ÜLKE
-
-							• OTO - İLK PARA SAYIM
-
-							• KRSK - KARIŞIK SAYIM 
-
-							• DKK
-
-							• AED
-
-							• CNY
-
-							• PKR
-
-							• NOK
-
-							• SAR
-
-							• CZK
-
-							• MYR
-
-							• TRY - TÜRK LİRASI
-
-							• JPY
-
-							• JOD
-
-							• BHD
-
-							• BRL
-
-							• USD - DOLAR
-
-							• AUD
-
-							• KWD
-
-							• MDL
-
-							• MXN
-
-							• EUR - EURO
-
-							• CAD
-
-							• EGP
-
-							• OMR
-
-							• CLP
-
-							• GBP - STERLİN
-
-							• IQD
-
-							• SGD
-
-							• HRK
-
-							• NZD
-
-							• CHF - İSVİÇRE FRANGI
-
-							• PLN
-
-							• HKD
-
-							• ZAR
-
-							• RUB - RUS RUBLESİ
-
-							• LBP
-
-							• ILS
-
-							• KRW
-
-							• SEK
-
-							• SYP
-
-							• HUF
-
-							• INR
-						</p>
-
-						  <div style ="justify-content:center;" class="row"> 
-						   <a href="#openModal" onClick="reply_click(this)" class="filled-button">Detay</a>
-						  </div>
-                        </div>
-                      </div>
-                    </div> -->
-					
-					
-					
-					<div class="col-lg-4 col-md-4 all kgt">
-                      <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Gold.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Gold Kağıt Para Sayma Makinesi</h4>
                           <p hidden>
@@ -675,26 +498,13 @@ https://templatemo.com/tm-546-sixteen-clothing
                         </div>
                       </div>
                     </div>
-					
-					
-<!-- 					<div class="col-lg-4 col-md-4 all kgt">
-                      <div id="product" class="product-item">
-                        <img id ="img" src="assets/images/ToshibaIbs100.jpg" alt="">
-                        <div id ="1" class="down-content">
-                         <h4>Toshiba Ibs-100 Kağıt Para sayma Makinesi</h4>
-                          <p hidden>Para sayma ve sayım sırasında sahte para yakalama özellikleri yanı sıra desteleme gibi birçok özelliği mevcuttur. Modelde, otomatik ve manuel sayım, Sayım sırasında eşlik eden 3 kat sahte para detektörleri olan: mor ışık, kızıl ötesi yol ve manyetik kristal vardır.</p>
-						    <div style ="justify-content:center;" class="row"> 
-						   <a href="#openModal" onClick="reply_click(this)" class="filled-button">Detay</a>
-						  </div>
-                        </div>
-                      </div>
-                    </div>
-					 -->
-					
+
 					
 				   <div class="col-lg-4 col-md-4 all kgt">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/SemtomSt4000.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Semtom ST-4000 Tam Otomatik Karışık Para Sayma Makinesi</h4>
                           <p hidden>
@@ -787,7 +597,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all kgt">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/SemtomSt3000.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Semtom ST-3000 Tam Otomatik Karışık Para Sayma Makinesi</h4>
                           <p hidden>
@@ -893,6 +705,7 @@ https://templatemo.com/tm-546-sixteen-clothing
 					<div class="col-lg-4 col-md-4 all sht">
                       <div id="product" class="product-item">
                         <img id ="img" src="assets/images/DoubleDpPower2268.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Double Power DP 2268 Sahte Para Dedektörü</h4>
                           <p hidden>
@@ -910,7 +723,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all sht">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/DpPower.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Double Power DP Sahte Para Dedektörü</h4>
                           <p hidden>
@@ -936,7 +751,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all mdn">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Sk9506.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Sk9506 Madeni Para Sayma Makinesi</h4>
                           <p hidden>
@@ -970,7 +787,9 @@ https://templatemo.com/tm-546-sixteen-clothing
                     </div>
 					<div class="col-lg-4 col-md-4 all mdn">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Turbocs2007.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Turbo Cs 2007 Madeni Para sayma Makinesi</h4>
                           <p hidden>
@@ -1042,7 +861,9 @@ https://templatemo.com/tm-546-sixteen-clothing
                     </div>
 					<div class="col-lg-4 col-md-4 all mdn">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Toshibaibs50.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Toshiba Ibs 50 Madeni Para sayma Makinesi</h4>
                           <p hidden>
@@ -1087,7 +908,9 @@ https://templatemo.com/tm-546-sixteen-clothing
                     </div>
 					<div class="col-lg-4 col-md-4 all mdn">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Cs260.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Sk 9506 Madeni Para sayma Makinesi</h4>
                           <p hidden>
@@ -1120,219 +943,13 @@ https://templatemo.com/tm-546-sixteen-clothing
                       </div>
                     </div>
 					
-					
-<!-- 					<div class="col-lg-4 col-md-4 all mdn">
-                      <div id="product" class="product-item">
-                        <img id ="img" src="assets/images/SemtomSt4000.jpg" alt="">
-                        <div id ="1" class="down-content">
-                         <h4>Semtom ST-3000 Tam Otomatik Karışık Para Sayma Makinesi</h4>
-                          <p hidden>
-							SEMTOM ST-4000
 
-
-
-							10 ÜLKE PARA BİRİMİNE SAHİP GENİŞ HAFIZA
-
-							St-4000  modeli sınıfının en geliştirilmiş hafıza kapasitesine sahip para sayma makinelerinden biridir.  Standart ülke kombinasyonu olarak 10 ülke para birimini bulundurmakla beraber, 10 ülke parasını karışık kupür sayarak toplam tutarlarını, sayım değerlerinin adedini ekranında göstermektedir.
-
-							 
-
-							OTOMATİK PARA TANIMA VE PARA SAYMADA ÜSTÜN TEKNOLOJİ
-
-							Semtom ST 4000 para sayma makinesi multi sayım modunda 4 farklı ülke parasını (TL,EURO,USD,GBP) menü değiştirmeden otomatik para tanıma özelliği sayesinde karışık halde sayabilen  profesyonel iki katlı para sayma makinesidir.  Sayım sırasında seri numarası alabilme özelliğine sahiptir. Sayım anında şüphelendiği parayı sayımı durdurmadan, üst haznesine atar. Toplam sonucu geniş lcd ekranında adet ve değer olarak gösterir. Bunun yanı sıra “RAPOR ” tuşu sayesinde sayılan paraların detaylı sonucunu ekranda  listelemektedir.
-
-
-
-							ÜSTÜN SENSÖR TEKNOLOJİSİ
-
-							ST-4000 modeli özel sahte para algılama sensörleri sayesinde (IR,UV,MG, 2 CIS sensörü) sahte para geçişini en aza indirmiştir.
-
-
-
-							FARK YARATAN SAYIM MODLARI
-
-							Sayım sırasında da kolaylık sağlayan ST-4000 modelimizde karışık sayım, adet sayım, ilk para, multi sayım ve yön-yüz ayrımı yapan sayım modları mevcuttur.
-
-
-
-							SINIFININ  DAHİLİ PRİNTER BULUNDURAN İKİ KATLI TEK PARA SAYMA MAKİNESİ
-
-							ST-4000 piyasadaki rakipleri ile karşılaştırdığında kutu içeriğinde bulunan (ücretsiz) harici müşteri ekranı ve dahili printer sayesinde kullanıcılarının bütün ihtiyaçlarını karşılar.
-
-
-							10 ÜLKELİ PARA KOMBİNASYONU
-
-							• TL    (Türk Lirası)
-							
-							• USD (Amerikan Doları)
-							
-							• EUR (Euro)
-							
-							• GBP (İngiliz Sterlini)
-							
-							• SEK  (İsveç Kronu)
-							
-							• RUB (Rus Rublesi)
-							
-							• SYP  (Suriye Lirası)
-							
-							• IQD  (Irak Dinarı)
-							
-							• BGN (Bulgar Levası)
-							
-							• CHF  (İsviçre Frangı) 
-
-
-							TEKNİK ÖZELLİKLER:
-
-
-							• Ana ekran: 3.5 inç TFT ekran
-
-							• Güç kaynağı: AC100-240V, 50/60Hz
-
-							• Güç tüketimi: 70W
-
-							• Ret haznesi:50-100 adet
-
-							• Üst hazne kapasitesi: 500 adet
-
-							• Alt hazne kapasitesi: 200 adet
-
-							• Sayma hızı: 800/1000/1200 adet/dak.
-
-							• Ara yüz: RS232, USB, SD kart yuvası
-
-							• Ortam sıcaklığı: 0ºC-40ºC
-
-							• Ortam nemi: %40-90
-
-							• Net ağırlık: 10 KG
-
-							• Brüt ağırlık :11 KG
-
-							• Boyutlar: 280mm×280mm×296mm
-
-							• Karton boyutu: 390mm x 325 mm x 400 mm
-						  
-						  </p>
-						   <div style ="justify-content:center;" class="row"> 
-						   <a href="#openModal" onClick="reply_click(this)" class="filled-button">Detay</a>
-						  </div>
-                        </div>
-                      </div>
-                    </div>
-					
-					
-					<div class="col-lg-4 col-md-4 all mdn">
-                      <div id="product" class="product-item">
-                        <img id ="img" src="assets/images/SemtomSt3000.jpg" alt="">
-                        <div id ="1" class="down-content">
-                         <h4>Semtom ST-3000 Tam Otomatik Karışık Para Sayma Makinesi</h4>
-                          <p hidden>
-							SEMTOM ST-3000
-
-							 
-
-							 
-
-							10 ÜLKE PARA BİRİMİNE SAHİP GENİŞ HAFIZA
-
-							ST-3000 modeli sınıfının en geliştirilmiş hafıza kapasitesine sahip para sayma makinelerinden biridir.  Standart ülke kombinasyonu olarak 10 ülke para birimini bulundurmakla beraber, 10 ülke parasını karışık kupür sayarak toplam tutarlarını, sayım değerlerinin adedini ekranında göstermektedir.
-
-							 
-
-							OTOMATİK PARA TANIMA VE PARA SAYMADA ÜSTÜN TEKNOLOJİ
-
-							Semtom ST-3000 para sayma makinesi multi sayım modunda 4 farklı ülke parasını (TL,EURO,USD,GBP) menü değiştirmeden otomatik para tanıma özelliği sayesinde karışık halde sayabilen  profesyonel tek katlı para sayma makinesidir.  Sayım sırasında seri numarası alabilme özelliğine sahiptir. Toplam sonucu geniş lcd ekranında adet ve değer olarak gösterir. Bunun yanı sıra “RAPOR ” tuşu sayesinde sayılan paraların detaylı sonucunu ekranda  listelemektedir.
-
-							 
-
-							ÜSTÜN SENSÖR TEKNOLOJİSİ
-
-							ST-3000 modeli özel sahte para algılama sensörleri sayesinde (IR,UV,MG, 2 CIS sensörü) sahte para geçişini en aza indirmiştir.
-
-							 
-
-							FARK YARATAN SAYIM MODLARI
-
-							Sayım sırasında da kolaylık sağlayan ST-3000  modelimizde karışık sayım, adet sayım, ilk para, multi sayım ayrımı yapan sayım modları mevcuttur.
-
-							ST-3000 kutu içeriğinde (ücretsiz) harici müşteri ekranı bulunmaktadır.
-
-							 
-
-							10 ÜLKELİ PARA KOMBİNASYONU
-
-
-							• TL    (Türk Lirası)
-
-							• USD (Amerikan Doları)
-
-							• EUR (Euro)
-
-							• GBP (İngiliz Sterlini)
-
-							• SEK  (İsveç Kronu)
-
-							• RUB (Rus Rublesi)
-
-							• SYP  (Suriye Lirası)
-
-							• IQD  (Irak Dinarı)
-
-							• BGN (Bulgar Levası)
-
-							• CHF  (İsviçre Frangı) 
-
-							 
-
-							TEKNİK ÖZELLİKLER :
-
-
-							• Ana ekran: 3.5 inç TFT led ekran
-
-							• Güç kaynağı: AC100-240V, 50/60Hz
-
-							• Güç tüketimi: 70W
-
-							• Üst hazne kapasitesi: 500 adet
-
-							• Alt hazne kapasitesi: 200 adet
-
-							• Sayma hızı: 800/1000/1200 adet/dak.
-
-							• Ara yüz: RS232, USB, SD kart yuvası
-
-							• Ortam sıcaklığı: 0ºC-40ºC
-
-							• Ortam nemi: %40-90
-
-							• Net ağırlık : 7.2KG
-
-							• Brüt ağırlık : 9KG
-
-							• Boyutlar: 252mm×285mm×289mm
-
-							• Karton boyutu: 353 mm x 325 mm x 354 mm
-						  
-						  </p>
-						   <div style ="justify-content:center;" class="row"> 
-						   <a href="#openModal" onClick="reply_click(this)" class="filled-button">Detay</a>
-						  </div>
-                        </div>
-                      </div>
-                    </div>
-					
-					
-					
-					
-					
-					 -->
-					
 					
 					<div class="col-lg-4 col-md-4 all tsh">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/ihunter2600.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>IHunter 2600 Cs260 Para sayma Makinesi - Teşhir Ürünü</h4>
                           <p hidden>
@@ -1399,7 +1016,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all tsh">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Pelikan309.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Pelikan 309 Madeni Para Sayma Makinasi - Teşhir Ürünü </h4>
                           <p hidden>
@@ -1428,7 +1047,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all tsh">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Dp2020.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Dp2020 Para Sayma Makinasi - Teşhir Ürünü </h4>
                           <p hidden>
@@ -1457,7 +1078,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all tsh">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/ToshibaIbs200.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Toshiba ibs 200 Para Sayma Makinasi - Teşhir Ürünü</h4>
                           <p hidden>
@@ -1507,7 +1130,9 @@ https://templatemo.com/tm-546-sixteen-clothing
 					
 					<div class="col-lg-4 col-md-4 all tsh">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Sk9506.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Sk9506 Madeni Para Sayma Makinesi-Teşhir Ürünü</h4>
                           <p hidden>
@@ -1541,7 +1166,9 @@ https://templatemo.com/tm-546-sixteen-clothing
                     </div>
 					<div class="col-lg-4 col-md-4 all tsh">
                       <div id="product" class="product-item">
+					  <div class="rowimg">
                         <img id ="img" src="assets/images/Alfa.jpg" alt="">
+						</div>
                         <div id ="1" class="down-content">
                          <h4>Alfa Madeni Para Sayma Makinesi-Teşhir Ürünü</h4>
                           <p hidden>
